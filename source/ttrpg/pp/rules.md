@@ -2,39 +2,20 @@
 
 ## Character Creation
 
-### Allowed Sources
+When making your character on D&D Beyond, please follow these guidelines:
 
-All sources should be included, excluding only:
+| Setting               | Value                                                        |
+| --------------------- | ------------------------------------------------------------ |
+| Allowed Sources       | All sources, excluding Rick and Morty and Minecraft content. |
+| Optional Features     | Allowed                                                      |
+| Customize Your Origin | Allowed                                                      |
+| Advancement Type      | Milestone                                                    |
+| Hit Point Type        | Fixed                                                        |
+| Use Prerequisites     | Both feat and multiclass prerequisites should be enabled     |
+| Encumbrance           | Variant                                                      |
+| Ignore Coin Weight    | Disabled                                                     |
 
-- Rick and Morty Content
-- Minecraft Content
-
-### Optional Features
-
-The following optional features are allowed:
-
-- Optional Class Features
-- Customize Your Origin
-
-### Advancement Type
-
-This should be set to Milestone unless stated otherwise by the DM.
-
-### Hit Point Type
-
-You are able to choose between "Fixed" or "Manual" (rolls) but once you choose you cannot change it.
-
-### Use Prerequisites
-
-Both feat and multiclass prerequisites should be enabled.
-
-### Variant Encumbrance
-
-All characters should be using variant encumbrance.
-
-### Ignore Coin Weight
-
-This should be enabled.
+We also have the following changes to character creation:
 
 ### Level 1 Extra Feat
 
@@ -92,7 +73,6 @@ You must declare the use of the Lucky feat before you roll and it grants advanta
 ### Modified Help Action
 
 - Characters must be proficient in activities they wish to help another character with.
-- When taking the Help action, roll 1d6 and add your proficiency modifier. The character you are helping can add this value to to their roll.
 
 ### Potion Toxicity
 
@@ -110,7 +90,7 @@ On a success, their body is able to withstand the residual magic from multiple p
 
 ### Quick Potion Drinking
 
-You can use a bonus action, instead of an action, to drink a potion you’re holding.
+You can use a bonus action, instead of an action, to drink a potion or feed it to another willing creature. If the creature is unconscious, you still need to use an action to pour the potion down their throat.
 
 ### Special Actions
 
@@ -122,11 +102,12 @@ You can forgo your movement in a turn to do a special action, these are listed b
   - **Melee:** Gain advantage on one melee spell attack this turn.
   - **Ranged:** Aim for a specific point, such as a limb, for a specific desired effect.
   - **Saving throw:** Your spell save DC increases by +1.
+- **Fully Digest Potion:** Instead of using a bonus action to drink a potion, you can use a special action to drink a potion and gain the full benefits of the potion instead of having to roll. For example, a potion of healing would heal you for the full amount of 10 instead of rolling 2d4 + 2.
 
-### Slow Fall Nerf
+### A Hero's End
 
-You will always take a minimum of 1 damage when you fall.
+When a character dies, they can choose to have a hero's end. This allows them to make a final special action before they die. This action cannot be used to heal themselves or save themselves from death. It can be used to save another character, deal a final blow to an enemy, or any other heroic action they wish to take. When they take this action, they waive rolling death saving throws and die at the end of their action.
 
-### Level-Up Requirements
+### Modified Death Saving Throws
 
-In order for a character to level-up, they must be in a safe place and take a long rest.
+All death saving throws are rolled secretly by the DM.
