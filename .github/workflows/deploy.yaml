@@ -20,10 +20,10 @@ jobs:
           node-version: "22"
 
       - name: Install dependencies
-        run: cd site && npm install
+        run: npm install
 
       - name: Build
-        run: cd site && npm run build
+        run: npm run build
 
       # - name: Copy cf files
       #   run: cp -r cloudflare/* out/
@@ -34,4 +34,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 424d9dabd39849818d9e22366a20e4d6
           projectName: worlds-zue-dev
-          directory: site/dist
+          directory: dist
