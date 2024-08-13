@@ -99,6 +99,19 @@ All mixing methods require the use of <a href="https://www.dndbeyond.com/equipme
 |    Lavender     | 1d8 Thunder Damage  | 2d8 Thunder Damage  |
 |    Marigold     |  1d8 Force Damage   |  2d8 Force Damage   |
 
+##### Buffs
+
+|     Name     |            Effect             |      Concentrated       |
+| :----------: | :---------------------------: | :---------------------: |
+|    Basil     |       1d4 to next save        |    1d8 to next save     |
+|   Cilantro   |    1d4 to next attack hit     | 2d4 to next attack hit  |
+|    Ginger    |      Cannot be surprised      |            -            |
+| Spicy Pepper |      Frightened immunity      |            -            |
+|  Raw Garlic  |       Charmed immunity        |            -            |
+|    Carrot    |        60ft Darkvision        |    120ft Darkvision     |
+|   Cucumber   | Next heal received is doubled |            -            |
+|   Parsley    |    1d4 to next skill check    | 1d8 to next skill check |
+
 #### Catalysts
 
 |      Name      | Save DC | Metabolization Period |
