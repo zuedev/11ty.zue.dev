@@ -44,7 +44,7 @@ flowchart TB
   METHOD .-> BIPRODUCT
 ```
 
-#### Mixing Methods
+### Mixing Methods
 
 All mixing methods require the use of <a href="https://www.dndbeyond.com/equipment/alchemists-supplies" target="_blank">🐉 Alchemist's Supplies</a>, in addition to any requirements listed below.
 
@@ -57,9 +57,9 @@ All mixing methods require the use of <a href="https://www.dndbeyond.com/equipme
 |    Titration     |  Advanced Alchemist's Supplies, Dexterity check (DC 15)   |     x2     |   x1    | Destroy Advanced Alchemist's Supplies on critical fail |
 |   Electrolysis   | Advanced Alchemist's Supplies, Intelligence check (DC 15) |     x1     |   x2    |        10d10 lightning damage on critical fail         |
 
-#### Ingredients
+### Ingredients
 
-##### Bases
+#### Bases
 
 |       Name        | Delivery Method |    Detectability    |
 | :---------------: | :-------------: | :-----------------: |
@@ -70,26 +70,52 @@ All mixing methods require the use of <a href="https://www.dndbeyond.com/equipme
 |   💨 Fairy Dust   |   Inhalation    | DC 25 Medical check |
 |  💦 Troll Sweat   |    Ingestion    | DC 30 Medical check |
 
-##### Agents
+#### Agents
 
-|   Name    |     Effect      |  Concentrated   |
-| :-------: | :-------------: | :-------------: |
-|   Rose    |   1d6 Healing   |        -        |
-| Wormwood  |   2d8 Healing   | 10 temporary HP |
-| Blaysting | 1d8 Fire Damage | 2d8 Fire Damage |
+##### Healing
 
-##### Catalysts
+|    Name    |       Effect        |   Concentrated    |
+| :--------: | :-----------------: | :---------------: |
+|    Rose    |     1d6 Healing     |         -         |
+|    Lily    |     1d6 Healing     |    2d6 Healing    |
+|    Iris    |     1d8 Healing     |    2d8 Healing    |
+|    Ivy     |     4d6 Healing     |    8d6 Healing    |
+|    Oak     | Lesser Restoration  |         -         |
+| Heartbloom | Greater Restoration |         -         |
+| Livingsap  |  1d12 Temporary HP  | 2d12 Temporary HP |
 
-|    Name     | Save DC | Metabolization Period |
-| :---------: | :-----: | :-------------------: |
-| Citric Acid |   10    |       6 seconds       |
+##### Damage
 
-#### Biproducts
+|      Name       |       Effect        |    Concentrated     |
+| :-------------: | :-----------------: | :-----------------: |
+|    Wormwood     |     2d8 Healing     |   10 temporary HP   |
+|    Blaysting    |   1d8 Fire Damage   |   2d8 Fire Damage   |
+|    Bluebell     |   1d8 Cold Damage   |   2d8 Cold Damage   |
+|     Hemlock     |  1d8 Poison Damage  |  2d8 Poison Damage  |
+|    Mandrake     | 1d8 Psychic Damage  | 2d8 Psychic Damage  |
+| Stinging Nettle |   1d8 Acid Damage   |   2d8 Acid Damage   |
+|    Sunflower    | 1d8 Radiant Damage  | 2d8 Radiant Damage  |
+|   Nightshade    | 1d8 Necrotic Damage | 2d8 Necrotic Damage |
+|    Lavender     | 1d8 Thunder Damage  | 2d8 Thunder Damage  |
+|    Marigold     |  1d8 Force Damage   |  2d8 Force Damage   |
+
+#### Catalysts
+
+|      Name      | Save DC | Metabolization Period |
+| :------------: | :-----: | :-------------------: |
+|    Lemonade    |    5    |       Instantly       |
+|  Citric Acid   |   10    |       6 seconds       |
+|    Vinegar     |   12    |       1 minute        |
+| Sulfuric Acid  |   15    |        1 hour         |
+|      Iron      |   20    |         1 day         |
+| Steel Shavings |   25    |        1 week         |
+
+### Biproducts
 
 Roll a d100 and use this table to decide the biproduct of your alchemy:
 
 |  D100  |                      Biproduct                       |
 | :----: | :--------------------------------------------------: |
-|  1-10  | Toxic gas that deals 5d10 poison in a 20 foot radius |
-| 11-89  |                       Nothing                        |
-| 90-100 |                 1x vial of Pure Viss                 |
+|  1-5   | Toxic gas that deals 5d10 poison in a 20 foot radius |
+|  6-94  |                       Nothing                        |
+| 95-100 |                 1x vial of Pure Viss                 |
