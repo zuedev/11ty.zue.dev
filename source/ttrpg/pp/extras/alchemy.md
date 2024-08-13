@@ -1,3 +1,7 @@
+---
+background_image: "https://w.wallhaven.cc/full/o3/wallhaven-o31gj7.jpg"
+---
+
 # ⚗️ Alchemy
 
 The topic of Alchemy is barely touched upon in D&D, relegated to a simple check and some time. Let's make it more interesting! 🤓

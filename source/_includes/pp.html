@@ -24,9 +24,32 @@
 
       /* contain body */
       body {
+        padding: 1rem;
         max-width: 666px;
         margin: auto;
-        padding: 1rem;
+      }
+
+      /* ...and extend it */
+      body {
+        min-height: 100vh;
+      }
+
+      /* default background */
+      html {
+        background-image: url({{ background_image }});
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+
+      /* paper background */
+      body {
+        background-color: white;
+        background-image: url("https://www.tilingtextures.com/wp-content/uploads/2018/11/0068-1-512x512.jpg");
+        background-repeat: repeat;
+        background-size: 256px;
+        box-shadow: 0 0 0 1px black;
       }
 
       /* center mermaid diagrams */
@@ -52,31 +75,40 @@
         }
       }
 
-      /* dark mode */
-      @media (prefers-color-scheme: dark) {
-        body {
+      /* remove margin from first h1 */
+      h1:first-child {
+        margin-top: 0;
+      }
+
+      /* style tables */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+
+        th,
+        td {
+          border: 1px solid black;
+          padding: 0.5rem;
+        }
+
+        th {
           background-color: black;
           color: white;
         }
 
-        a {
-          color: cyan;
-
-          &:visited {
-            color: coral;
-          }
+        tr {
+          background-color: white;
         }
-      }
 
-      /* remove margin from first h1 */
-      h1:first-child {
-        margin-top: 0;
+        tr:nth-child(even) {
+          background-color: #eee;
+        }
       }
     </style>
   </head>
   <body>
     {{ content }}
   </body>
-  <!-- mermaid js stuff -->
+  <!-- render mermaid diagrams -->
   <script type="module" src="/_assets/scripts/mermaid.mjs"></script>
 </html>
