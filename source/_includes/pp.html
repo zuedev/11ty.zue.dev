@@ -1,45 +1,82 @@
 <!DOCTYPE html>
-<html
-  lang="en"
-  class="bg-white text-black dark:bg-black dark:text-white prose dark:prose-invert p-4 sm:p-6 lg:p-8 mx-auto text-justify max-w-none lg:max-w-3xl inter-192378"
->
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
-    <script src="https://cdn.tailwindcss.com?plugins=typography,forms,aspect-ratio,container-queries"></script>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+      /* normalize */
+      @import url("https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css");
 
-      .inter-192378 {
-        font-family: "Inter";
+      /* import default font */
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+      /* set default font */
+      html {
+        font-family: "Noto Serif";
+        text-align: justify;
       }
 
+      /* hide scrollbar */
       ::-webkit-scrollbar {
         display: none;
       }
 
+      /* contain body */
+      body {
+        max-width: 666px;
+        margin: auto;
+        padding: 1rem;
+      }
+
+      /* center mermaid diagrams */
       .language-mermaid > svg {
         margin: auto;
+      }
+
+      /* remove link decoration */
+      a {
+        text-decoration: none;
+      }
+
+      /* change link colours */
+      a {
+        color: blue;
+
+        &:visited {
+          color: red;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      /* dark mode */
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: black;
+          color: white;
+        }
+
+        a {
+          color: cyan;
+
+          &:visited {
+            color: coral;
+          }
+        }
+      }
+
+      /* remove margin from first h1 */
+      h1:first-child {
+        margin-top: 0;
       }
     </style>
   </head>
   <body>
     {{ content }}
   </body>
-  <script type="module">
-    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
-
-    mermaid.initialize({
-      startOnLoad: false,
-      securityLevel: "loose",
-      theme: window.matchMedia("(prefers-color-scheme: dark)").matches
-        ? "dark"
-        : "default",
-    });
-
-    mermaid.run({
-      querySelector: ".language-mermaid",
-    });
-  </script>
+  <!-- mermaid js stuff -->
+  <script type="module" src="/_assets/scripts/mermaid.mjs"></script>
 </html>

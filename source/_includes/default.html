@@ -4,16 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
-    />
     <style>
-      body {
-        margin: 1rem;
-        max-width: 400px;
+      /* normalize */
+      @import url("https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css");
+
+      /* import default font */
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+      /* set default font */
+      html {
+        font-family: "Noto Sans";
+        text-align: justify;
       }
 
+      /* hide scrollbar */
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      /* remove link decoration */
+      a {
+        text-decoration: none;
+      }
+
+      /* change link colours */
+      a {
+        color: blue;
+
+        &:visited {
+          color: red;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      /* contain body */
+      body {
+        max-width: 420px;
+      }
+
+      /* give body some padding */
+      body {
+        padding: 1rem;
+      }
+
+      /* remove margin from first h1 */
       h1:first-child {
         margin-top: 0;
       }
