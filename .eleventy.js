@@ -13,8 +13,8 @@ module.exports = function (eleventyConfig) {
 
   return {
     dir: {
-      input: "src",
-      output: "dist",
+      input: "source",
+      output: "build",
     },
     layout: "default.html",
   };
