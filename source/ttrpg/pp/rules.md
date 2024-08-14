@@ -1,4 +1,8 @@
-# PP: D&D 5e "House" Rules
+---
+background_image: "https://images.ctfassets.net/swt2dsco9mfe/2EIwv9QZIaRlXwqAPhY9T7/39cab52a9f8d6b25ad2a1921bd377aaa/2560x1600-starter.jpg"
+---
+
+# Rules
 
 ## Character Creation
 

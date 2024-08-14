@@ -7,6 +7,7 @@ Keep in mind that this guide assumes you have read **<ins>Chapters 7-10</ins> fr
 ## Chapters
 
 1. [Using the Primer](using-the-primer)
-2. [The Gameplay Loop](the-gameplay-loop)
-3. [The Rules](rules)
-4. [Extras](extras/)
+1. [The Gameplay Loop](the-gameplay-loop)
+1. [Code of Conduct](code-of-conduct)
+1. [The Rules](rules)
+1. [Extras](extras/)
