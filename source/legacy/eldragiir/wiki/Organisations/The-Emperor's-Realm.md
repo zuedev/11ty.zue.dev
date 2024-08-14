@@ -1,4 +1,4 @@
-<img src="/assets/images/the-emperors-realm-coat.png" height="150px">
+<img src="/_assets/images/the-emperors-realm-coat.png" height="150px">
 
 _"Our faith resilient, the line holds"_
 

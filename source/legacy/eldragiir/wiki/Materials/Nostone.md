@@ -1,4 +1,4 @@
-<img src="/assets/images/nostone.png" height="150px">
+<img src="/_assets/images/nostone.png" height="150px">
 
 ## Prose
 

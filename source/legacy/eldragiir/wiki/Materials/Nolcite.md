@@ -1,4 +1,4 @@
-<img src="/assets/images/nolcite.gif" height="150px">
+<img src="/_assets/images/nolcite.gif" height="150px">
 
 ## Prose
 

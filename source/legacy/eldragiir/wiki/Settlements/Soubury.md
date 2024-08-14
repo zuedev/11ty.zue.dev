@@ -1,6 +1,6 @@
 # Soubury
 
-<img src="/assets/images/haven_soubury.png" height="256px">
+<img src="/_assets/images/haven_soubury.png" height="256px">
 
 # Prose
 

@@ -1,6 +1,6 @@
 # Norbury
 
-<img src="/assets/images/haven_norbury.png" height="256px">
+<img src="/_assets/images/haven_norbury.png" height="256px">
 
 # Prose
 

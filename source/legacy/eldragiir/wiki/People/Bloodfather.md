@@ -2,7 +2,7 @@
 
 > Emperor Wilcoc Sanguinous (a.k.a. The Sanguine King) (They/Them)
 
-<img src="/assets/images/bloodfather_cutout.png" height="500px">
+<img src="/_assets/images/bloodfather_cutout.png" height="500px">
 
 ## Prose
 
