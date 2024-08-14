@@ -28,11 +28,6 @@
         margin: auto;
       }
 
-      /* ...and extend it */
-      body {
-        min-height: 100vh;
-      }
-
       /* default background */
       html {
         background-image: url({{ background_image }});
@@ -54,6 +49,11 @@
       /* give main some padding */
       main {
         padding: 1rem;
+      }
+
+      /* extend main */
+      main {
+        min-height: 100vh;
       }
 
       /* center mermaid diagrams */
