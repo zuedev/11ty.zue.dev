@@ -74,43 +74,42 @@ All mixing methods require the use of <a href="https://www.dndbeyond.com/equipme
 
 ##### Healing
 
-|    Name    |       Effect        |   Concentrated    |
-| :--------: | :-----------------: | :---------------: |
-|    Rose    |     1d6 Healing     |         -         |
-|    Lily    |     1d6 Healing     |    2d6 Healing    |
-|    Iris    |     1d8 Healing     |    2d8 Healing    |
-|    Ivy     |     4d6 Healing     |    8d6 Healing    |
-|    Oak     | Lesser Restoration  |         -         |
-| Heartbloom | Greater Restoration |         -         |
-| Livingsap  |  1d12 Temporary HP  | 2d12 Temporary HP |
+|    Name    |       Effect        |   Concentrated    |  Rarity   |
+| :--------: | :-----------------: | :---------------: | :-------: |
+|    Rose    |     1d6 Healing     |         -         |  Common   |
+|    Lily    |     1d6 Healing     |    2d6 Healing    | Uncommon  |
+|    Iris    |     1d8 Healing     |    2d8 Healing    |   Rare    |
+|    Ivy     |     4d6 Healing     |    8d6 Healing    | Very Rare |
+|    Oak     | Lesser Restoration  |         -         |  Common   |
+| Heartbloom | Greater Restoration |         -         |   Rare    |
+| Livingsap  |  1d12 Temporary HP  | 2d12 Temporary HP | Uncommon  |
 
 ##### Damage
 
-|      Name       |       Effect        |    Concentrated     |
-| :-------------: | :-----------------: | :-----------------: |
-|    Wormwood     |     2d8 Healing     |   10 temporary HP   |
-|    Blaysting    |   1d8 Fire Damage   |   2d8 Fire Damage   |
-|    Bluebell     |   1d8 Cold Damage   |   2d8 Cold Damage   |
-|     Hemlock     |  1d8 Poison Damage  |  2d8 Poison Damage  |
-|    Mandrake     | 1d8 Psychic Damage  | 2d8 Psychic Damage  |
-| Stinging Nettle |   1d8 Acid Damage   |   2d8 Acid Damage   |
-|    Sunflower    | 1d8 Radiant Damage  | 2d8 Radiant Damage  |
-|   Nightshade    | 1d8 Necrotic Damage | 2d8 Necrotic Damage |
-|    Lavender     | 1d8 Thunder Damage  | 2d8 Thunder Damage  |
-|    Marigold     |  1d8 Force Damage   |  2d8 Force Damage   |
+|      Name       |       Effect        |    Concentrated     |  Rarity   |
+| :-------------: | :-----------------: | :-----------------: | :-------: |
+|    Blaysting    |   1d8 Fire Damage   |   2d8 Fire Damage   | Uncommon  |
+|    Bluebell     |   1d8 Cold Damage   |   2d8 Cold Damage   | Uncommon  |
+|     Hemlock     |  1d8 Poison Damage  |  2d8 Poison Damage  | Uncommon  |
+|    Mandrake     | 1d8 Psychic Damage  | 2d8 Psychic Damage  |   Rare    |
+| Stinging Nettle |   1d8 Acid Damage   |   2d8 Acid Damage   | Uncommon  |
+|    Sunflower    | 1d8 Radiant Damage  | 2d8 Radiant Damage  |   Rare    |
+|   Nightshade    | 1d8 Necrotic Damage | 2d8 Necrotic Damage | Very Rare |
+|    Lavender     | 1d8 Thunder Damage  | 2d8 Thunder Damage  | Uncommon  |
+|    Marigold     |  1d8 Force Damage   |  2d8 Force Damage   | Uncommon  |
 
 ##### Buffs
 
-|     Name     |            Effect             |      Concentrated       |
-| :----------: | :---------------------------: | :---------------------: |
-|    Basil     |       1d4 to next save        |    1d8 to next save     |
-|   Cilantro   |    1d4 to next attack hit     | 2d4 to next attack hit  |
-|    Ginger    |      Cannot be surprised      |            -            |
-| Spicy Pepper |      Frightened immunity      |            -            |
-|  Raw Garlic  |       Charmed immunity        |            -            |
-|    Carrot    |        60ft Darkvision        |    120ft Darkvision     |
-|   Cucumber   | Next heal received is doubled |            -            |
-|   Parsley    |    1d4 to next skill check    | 1d8 to next skill check |
+|     Name     |            Effect             |      Concentrated       |  Rarity   |
+| :----------: | :---------------------------: | :---------------------: | :-------: |
+|    Basil     |       1d4 to next save        |    1d8 to next save     | Uncommon  |
+|   Cilantro   |    1d4 to next attack hit     | 2d4 to next attack hit  | Uncommon  |
+|    Ginger    |      Cannot be surprised      |            -            |   Rare    |
+| Spicy Pepper |      Frightened immunity      |            -            | Very Rare |
+|  Raw Garlic  |       Charmed immunity        |            -            | Very Rare |
+|    Carrot    |        60ft Darkvision        |    120ft Darkvision     | Uncommon  |
+|   Cucumber   | Next heal received is doubled |            -            |   Rare    |
+|   Parsley    |    1d4 to next skill check    | 1d8 to next skill check | Uncommon  |
 
 #### Catalysts
 
