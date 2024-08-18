@@ -1,0 +1,5 @@
+# The Bloodgulch Shogunate: Stalwart Martial Stronghold
+
+In stark contrast to the Kingdom of Redrock, the Bloodgulch Shogunate is a militaristic autocracy modeled by the assembly of many warrior clans under one hereditary dictatorship to better coordinate and defend against larger threats that would otherwise overpower each clan on their own. The foundation of the government is based on the promise of mutual defense, as declaring war on one of the clans brings the wrath of the entire Shogunate on the perpetrators. The society is highly structured, with a focus on rigorous training and loyalty to the state of all citizens. This leads to a unified warrior culture that produces some of the most highly respected and feared martial fighters in the mortal realm. The city-state is ruled by a warrior tribune made up of the strongest warriors from each clan that is led by a democratically-elected “Shogun” who is responsible for the defense, order, and development of the country as a whole. The emphasis in Bloodgulch is on collective responsibility and unwavering duty.
+
+![](/_assets/images/bloodgulch-shogunate-flag.png)
