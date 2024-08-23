@@ -1,5 +1,5 @@
 ---
-background_image: "https://w.wallhaven.cc/full/o3/wallhaven-o31gj7.jpg"
+background_image: "/_assets/images/backgrounds/alchemy.jpg"
 ---
 
 # ⚗️ Alchemy

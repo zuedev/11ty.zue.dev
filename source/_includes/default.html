@@ -4,21 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom styling -->
     <style>
       /* normalize */
       @import url("https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css");
 
-      /* import default font */
-      @import url("/_assets/styles/MonaspaceNeon.css");
-
       /* set default font */
       html {
-        font-family: "MonaspaceNeon";
-        font-feature-settings: "calt", "liga", "ss01", "ss02", "ss03", "ss04",
-          "ss05", "ss06", "ss07", "ss08";
-        font-variation-settings: "calt" 1, "liga" 1, "ss01" 1, "ss02" 1,
-          "ss03" 1, "ss04" 1, "ss05" 1, "ss06" 1, "ss07" 1, "ss08" 1;
-        text-align: justify;
+        font-family: "Fira Code";
+      }
+
+      /* dark mode defaults */
+      @media (prefers-color-scheme: dark) {
+        html {
+          background-color: black;
+          color: white;
+        }
       }
 
       /* hide scrollbar */
@@ -26,37 +36,35 @@
         display: none;
       }
 
-      /* remove link decoration */
-      a {
-        text-decoration: none;
-      }
-
-      /* change link colours */
-      a {
+      /* better links */
+      a,
+      a:visited {
         color: blue;
+      }
 
-        &:visited {
-          color: red;
+      a:hover {
+        filter: brightness(1.2);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        a,
+        a:visited {
+          color: cyan;
         }
 
-        &:hover {
-          text-decoration: underline;
+        a:hover {
+          filter: brightness(0.8);
         }
       }
 
-      /* contain body */
-      body {
-        max-width: 420px;
+      /* remove margin from first header */
+      h1:first-of-type {
+        margin-top: 0;
       }
 
       /* give body some padding */
       body {
         padding: 1rem;
-      }
-
-      /* remove margin from first h1 */
-      h1:first-child {
-        margin-top: 0;
       }
     </style>
   </head>

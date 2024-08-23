@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
-    <link rel="icon" href="/_assets/images/pp.svg" />
+    <link rel="icon" href="/_assets/images/icons/dnd-pp.png" />
     <style>
       /* normalize */
       @import url("https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css");
 
       /* import default font */
       @import url("/_assets/styles/MonaspaceXenon.css");
+      @import url("/_assets/styles/MonaspaceRadon.css");
 
       /* set default font */
       html {
@@ -59,11 +60,6 @@
       /* extend main */
       main {
         min-height: 100vh;
-      }
-
-      /* center mermaid diagrams */
-      .language-mermaid > svg {
-        margin: auto;
       }
 
       /* remove link decoration */
@@ -163,25 +159,42 @@
   </head>
   <body>
     <nav>
-      <a href="/ttrpg/pp/">Home</a>
+      <a href="/ttrpg/dnd/pp/">Home</a>
       <div class="dropdown">
         <span>Essentials</span>
         <div>
-          <a href="/ttrpg/pp/using-the-primer/">Using the Primer</a>
-          <a href="/ttrpg/pp/the-gameplay-loop/">The Gameplay Loop</a>
-          <a href="/ttrpg/pp/code-of-conduct/">Code of Conduct</a>
-          <a href="/ttrpg/pp/rules/">The Rules</a>
+          <a href="/ttrpg/dnd/pp/using-the-primer/">Using the Primer</a>
+          <a href="/ttrpg/dnd/pp/the-gameplay-loop/">The Gameplay Loop</a>
+          <a href="/ttrpg/dnd/pp/code-of-conduct/">Code of Conduct</a>
+          <a href="/ttrpg/dnd/pp/rules/">The Rules</a>
         </div>
       </div>
       <div class="dropdown">
         <span>Extras</span>
         <div>
-          <a href="/ttrpg/pp/extras/alchemy">Alchemy</a>
+          <a href="/ttrpg/dnd/pp/extras/alchemy">Alchemy</a>
         </div>
       </div>
     </nav>
     <main>{{ content }}</main>
   </body>
   <!-- render mermaid diagrams -->
-  <script type="module" src="/_assets/scripts/mermaid.mjs"></script>
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: "loose",
+      theme: "base",
+      themeVariables: {
+        primaryColor: "black",
+        primaryBorderColor: "black",
+        primaryTextColor: "white",
+      },
+    });
+
+    mermaid.run({
+      querySelector: ".language-mermaid",
+    });
+  </script>
 </html>

@@ -1,7 +1,3 @@
----
-background_image: "https://images.ctfassets.net/swt2dsco9mfe/1Y9iTh7jflUv5wIYbAwuBW/2b648b4782558b4c8b1f65f94111cb7b/Yawning_portal_2560x1600_Wallpaper.jpeg"
----
-
 # Code of Conduct
 
 All players are expected to adhere to the following code of conduct during sessions:
