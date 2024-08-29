@@ -37,7 +37,6 @@ The following optional and variant rules are being used:
   <li><a href="https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#Explosives" target="_blank">🐉 Explosives</a></li>
   <li><a href="https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#FearandHorror" target="_blank">🐉 Fear and Horror</a></li>
   <li><a href="https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#Firearms" target="_blank">🐉 Firearms</a></li>
-  <li><a href="https://www.dndbeyond.com/sources/dmg/running-the-game#OptionalRuleFlanking" target="_blank">🐉 Flanking</a></li>
   <li><a href="https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#HittingCover" target="_blank">🐉 Hitting Cover</a></li>
   <li><a href="https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#Injuries" target="_blank">🐉 Injuries</a></li>
   <li><a href="https://www.dndbeyond.com/sources/dmg/creating-nonplayer-characters#OptionalRuleLoyalty" target="_blank">🐉 Loyalty</a></li>
