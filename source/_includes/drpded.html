@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    <style>
+      /* import default font */
+      @import url("/_assets/styles/Neo둥근모.css");
+      @import url("/_assets/styles/Neo둥근모 Code.css");
+
+      /* set default font */
+      html {
+        font-family: "Neo둥근모";
+        text-align: justify;
+      }
+
+      code {
+        font-family: "Neo둥근모 Code";
+      }
+
+      html {
+        background: black;
+        color: white;
+      }
+
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      body {
+        margin: 0;
+        max-width: 666px;
+      }
+
+      h1:first-child {
+        margin-top: 0;
+      }
+
+      pre {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+
+      pre:has(> code.language-green) {
+        background: lime;
+        color: black;
+        padding: 0.5rem;
+      }
+
+      main > *:first-child {
+        margin-top: 0;
+      }
+
+      nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        padding: 0.25rem;
+
+        background: yellow;
+
+        position: fixed;
+        bottom: 0%;
+        left: 0;
+      }
+
+      nav > a:first-child {
+        font-weight: bold;
+        font-size: 2rem;
+      }
+
+      nav a {
+        color: black;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      nav .dropdown {
+        position: relative;
+        color: black;
+      }
+
+      nav .dropdown span::after {
+        content: "▲";
+        margin-left: 0.25rem;
+      }
+
+      nav .dropdown-content {
+        display: none;
+        position: absolute;
+        background: yellow;
+        padding: 1rem;
+        bottom: 100%;
+        left: 0;
+      }
+
+      nav .dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/worlds/drpded/">DRPDED.NET</a>
+      <a href="/worlds/drpded/about">About</a>
+      <div class="dropdown">
+        <span>Topics</span>
+        <div class="dropdown-content">
+          <a href="/worlds/drpded/">History</a>
+          <a href="/worlds/drpded/">Politics</a>
+          <a href="/worlds/drpded/">Corps</a>
+        </div>
+      </div>
+    </nav>
+    <main>{{ content }}</main>
+  </body>
+</html>
